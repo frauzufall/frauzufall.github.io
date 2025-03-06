@@ -1,0 +1,33 @@
+programming:
+  - Python
+  - Java
+  - C++
+  - Arduino
+  - Shell Scripting
+  - Ruby
+deep_learning:
+  - TensorFlow
+  - Keras
+  - PyTorch
+devops:
+  - Git
+  - CI/CD tools
+  - Conda
+  - Mamba
+  - PyPi
+visualization:
+  - 2D Graphics
+  - Shader Programming (GLSL)
+  - 3D Rendering (Blender)
+web_development:
+  - HTML/CSS
+  - JavaScript
+  - PHP
+  - Jekyll / GitHub Pages
+  - NodeJS
+platforms:
+  - Linux
+  - Windows
+  - MacOS
+  - Android
+  - Raspberry Pi

@@ -1,0 +1,29 @@
+- title: "(Invited participant) Cell Trackathon"
+  organization: "Janelia Research Campus"
+  end_date: "2023-01-01"
+
+- title: "(Invited participant) CellMap Hackathon"
+  organization: "Janelia Research Campus"
+  end_date: "2022-01-01"
+
+- title: "Participant at Data Hub Workshop"
+  organization: "Helmholtz, research field Earth and Environment"
+  start_date: "2021-01-01"
+
+- title: "Participation at various ImageJ / ImgLib2 / Fiji / KNIME / HPC / bioimage.io Hackathons"
+  organization: "CSBD / MPI-CBG Dresden, Germany; KNIME, Konstanz, Germany; Institute for Medical Systems Biology, Berlin, Germany; IT4Innovations, Ostrava, Czech Republic"
+  start_date: "2016-01-01"
+  end_date: "2019-12-31"
+
+- title: "Learning and teaching Fiji, ImageJ2, KNIME development at DAIS Learnathons"
+  organization: "CSBD / MPI-CBG Dresden, Germany"
+  start_date: "2017-01-01"
+  end_date: "2019-12-31"
+
+- title: "(Invited participant) [Documentation Sprint](https://www.creativeapplications.net/membersonly/making-openframeworks-work-users-and-educators-gather-in-denver-colorado/) for openFrameworks"
+  organization: "Professorship Emergent Digital Practices, University of Denver, Colorado"
+  end_date: "2016-01-01"
+
+- title: "Participant at Inventor Workshop 2012"
+  organization: "Working group Be-greifbare Interaktion, Dresden, Germany"
+  end_date: "2012-01-01"

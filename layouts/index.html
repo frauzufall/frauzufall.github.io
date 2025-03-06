@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <main>
+        {{/* Create an empty slice to store all timeline events */}}
+{{ $timelineItems := slice }}
+
+{{/* Aggregate Education events and add a category marker */}}
+{{ range .Site.Data.education }}
+  {{ $item := . | merge (dict "category" "education") }}
+  {{ $timelineItems = $timelineItems | append $item }}
+{{ end }}
+
+{{/* Aggregate Employment events */}}
+{{ range .Site.Data.employment }}
+  {{ $item := . | merge (dict "category" "employment") }}
+  {{ $timelineItems = $timelineItems | append $item }}
+{{ end }}
+
+{{/* Aggregate Software Projects events */}}
+{{ range .Site.Data.software }}
+  {{ $item := . | merge (dict "category" "software") }}
+  {{ $timelineItems = $timelineItems | append $item }}
+{{ end }}
+
+{{/* Aggregate Talks events */}}
+{{ range .Site.Data.talks }}
+  {{ $item := . | merge (dict "category" "talk") }}
+  {{ $timelineItems = $timelineItems | append $item }}
+{{ end }}
+
+{{/* Aggregate Hackathons and Workshops events */}}
+{{ range .Site.Data.hackathons_workshops }}
+  {{ $item := . | merge (dict "category" "workshop") }}
+  {{ $timelineItems = $timelineItems | append $item }}
+{{ end }}
+
+{{/* Aggregate Teaching and Outreach events */}}
+{{ range .Site.Data.teaching_outreach }}
+  {{ $item := . | merge (dict "category" "teaching") }}
+  {{ $timelineItems = $timelineItems | append $item }}
+{{ end }}
+
+{{/* Aggregate Exhibition events */}}
+{{ range .Site.Data.exhibitions }}
+  {{ $item := . | merge (dict "category" "exhibition") }}
+  {{ $timelineItems = $timelineItems | append $item }}
+{{ end }}
+
+
+{{ $newTimelineItems := slice }}
+{{ range $timelineItems }}
+  {{ $item := . }}
+  {{ if .end_date }}
+    {{ if eq .end_date "present" }}
+      {{ $item = $item | merge (dict "year" 3000) }}
+    {{ else }}
+      {{ $item = $item | merge (dict "year" (.end_date | time.Format "2006")) }}
+    {{ end }}
+  {{ else if .start_date }}
+    {{ $item = $item | merge (dict "year" (.start_date | time.Format "2006")) }}
+  {{ end }}
+  {{ $newTimelineItems = $newTimelineItems | append $item }}
+{{ end }}
+{{ $timelineItems = $newTimelineItems }}
+
+{{ $sortedTimeline := sort $timelineItems "year" "desc" }}
+
+
+<section id="timeline-section" class="container my-5">
+  <div class="section-title-container">
+    <div class="portrait" style="background-image: url({{.Site.Data.personal_info.portrait}})"></div>
+    <div>
+      <h2 class="section-title">Hi, nice to meet you!</h2>
+      <span>{{.Site.Data.personal_info.bio | markdownify}}</span>
+    </div>
+  </div>
+  <div class="timeline">
+    {{ range $sortedTimeline }}
+      <div class="timeline-item {{ .category }} {{ if .highlight }}highlight{{ end }}">
+        <span class="date">
+        {{ if .end_date }}
+          {{ if eq .end_date "present" }}
+            {{ .start_date | time.Format "2006" }} - Present
+          {{ else if .start_date }}
+            {{ if eq (.start_date | time.Format "2006") (.end_date | time.Format "2006") }}
+              {{ .start_date | time.Format "2006" }}
+            {{ else }}
+              {{ .start_date | time.Format "2006" }} - {{ .end_date | time.Format "2006" }}
+            {{ end }}
+          {{ else }}
+            {{ .end_date | time.Format "2006" }}
+          {{ end }}
+        {{ else if .start_date }}
+          {{ .start_date | time.Format "2006" }}
+        {{ end }}
+        <span class="category">{{ .category }}</span>
+      </span>
+        <span class="title">{{ .title | markdownify }}</span> <span class="organization">{{.organization | markdownify}}</span> <span class="organization">{{.event | markdownify}}</span>
+        <span class="description">{{ .description | markdownify }}</span>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+    <footer>
+        <p>&copy; {{ now.Format "2006" }} {{ .Site.Data.personal_info.name }}</p>
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>

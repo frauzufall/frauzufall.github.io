@@ -1,0 +1,48 @@
+- title: "[Album](https://gitlab.com/album-app/album)"
+  description: "A decentralized distribution platform for solutions to specific scientific problems."
+  start_date: "2021-01-01"
+  end_date: "2023-12-31"
+
+- title: "[DenoiSeg in Fiji](https://github.com/juglab/DenoiSeg_fiji)"
+  description: "The neural network based plugin for joint segmentation and denoising in Java."
+  start_date: "2020-01-01"
+  end_date: "2020-12-31"
+
+- title: "[N2V in Fiji](https://github.com/juglab/N2V_fiji/)"
+  description: "Noise reduction (pixel wise independent) by training a CNN on single noisy images in Java."
+  start_date: "2020-01-01"
+  end_date: "2020-12-31"
+
+- title: "[imagej-modelzoo](https://github.com/imagej/imagej-modelzoo)"
+  description: "An ImageJ consumer for models from the bioimage.io model zoo."
+  start_date: "2019-01-01"
+  end_date: "2019-12-31"
+
+- title: "[LabelEditor](https://github.com/juglab/LabelEditor)"
+  description: "An ImgLabeling viewer closing the gap between segmentation algorithms and user interaction in ImageJ2 / Fiji."
+  start_date: "2019-01-01"
+  end_date: "2023-12-31"
+
+- title: "[CSBDeep in Fiji](https://csbdeep.bioimagecomputing.com/)"
+  description: "A toolbox for content-aware restoration of fluorescence microscopy images (CARE), based on deep learning via Keras and TensorFlow."
+  start_date: "2017-01-01"
+  end_date: "2017-12-31"
+
+- title: "[Crawling Traces](https://www.youtube.com/watch?v=pUi1_uh-Bxc&list=PL6GId3v001yndC6cKxPstdoLiGqI_3T8c&index=8) - An interactive projection to manipulate public space (written in C++ / OpenFrameworks)."
+  event: "2016 Arte Migrante (Kleines Haus, Dresden), 2015 Kunstwechsel 2015 (Siegen), 2014 #DRESDEN1311 (Centrum Galerie Dresden), 2013 Deutscher Multimediapreis für Kinder und Jugendliche MB21 (Scheune, Dresden), 2013 Hechtfest’13 (Dresden)"
+  start_date: "2013-01-01"
+  end_date: "2016-12-31"
+
+- title: "SPLASH!, a C++ software based on openFrameworks for reactive music visualization and facade mapping."
+  start_date: "2013-01-01"
+  end_date: "2016-12-31"
+  event: 2016 [Visualizations for a piano concert by Martin Kohlstedt together with Philipp Baumgarten](https://www.youtube.com/watch?v=2wPtLrzBvRk&list=PL6GId3v001yndC6cKxPstdoLiGqI_3T8c&index=12) (Kühlhaus Görlitz), 2015 [SPECTRA, DAVE Festival](https://www.youtube.com/watch?v=Cic_fBOAEZ0&list=PL6GId3v001yndC6cKxPstdoLiGqI_3T8c&index=5) (Dresden), 2013 Kraftwerk Off / On (Dresden), 2011 - 2013 MOXXOM openair (Hagenwerder)
+
+- title: "[.raindrops](https://www.kazoosh.com/projekte/2010_raindrops.html), a body movement game"
+  event: "Prague, Anemic Festival 2010, TU Dresden, OUTPUT, 2012"
+  start_date: "2010-01-01"
+  end_date: "2012-12-31"
+
+- title: "Creation of [generative drawings](generative.frauzufall.de) based on Googles [*Quick, Draw!*- Dataset](https://github.com/googlecreativelab/quickdraw-dataset)"
+  start_date: "2017-01-01"
+  end_date: "2020-12-31"

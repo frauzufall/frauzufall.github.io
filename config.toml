@@ -1,0 +1,6 @@
+baseURL = "http://frauzufall.de/"
+languageCode = "en-us"
+title = "Deborah Schmidt"
+
+[build]
+    writeStats = false

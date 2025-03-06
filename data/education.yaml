@@ -1,0 +1,24 @@
+- organization: "Technische Universität Dresden"
+  title: "Diploma in Media Computer Science"
+  start_date: "2006-01-01"
+  end_date: "2013-02-01"
+  highlight: true
+  description: "Specialization: Information and Application Systems; Minor: Arts and Design"
+
+- organization: "Stanford University"
+  title: "Frugal Science course"
+  start_date: "2022-09-01"
+  end_date: "2022-12-01"
+  description: "Virtual participation in course by Manu Prakash."
+
+- organization: "Stanford University"
+  title: "Frugal Science course"
+  start_date: "2020-09-01"
+  end_date: "2020-12-01"
+  description: "Virtual participation in course by Manu Prakash."
+
+- organization: "kadenze Academy"
+  title: "Creative Applications of Deep Learning with TensorFlow"
+  start_date: "2016-07-01"
+  end_date: "2016-12-01"
+  description: "Online course by Parag Mital"
