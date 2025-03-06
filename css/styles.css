@@ -1,0 +1,133 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.3;
+}
+
+a, a:hover, a:visited {
+    color: black;
+    text-decoration: underline dotted;
+}
+
+h3, .title {
+    font-weight: 400;
+}
+
+/* Timeline Container */
+.timeline {
+    padding: 20px 0;
+    margin: 20px 0;
+    color: #313134;
+    max-width: 1400px;
+}
+
+/* Timeline Item */
+.timeline-item {
+    padding: 0px 20px;
+    border-left: 10px solid transparent;
+    margin-left: 220px;
+    margin-bottom: 13px;
+}
+
+
+/* Color coding by category */
+.timeline-item.education.highlight {
+    border-color: #76d7c4;
+}
+.timeline-item.education .category {
+    background-color: #76d7c4;
+}
+.timeline-item.employment .category{
+    background-color: #85c1e9;
+}
+.timeline-item.employment.highlight {
+    border-color: #85c1e9;
+}
+.timeline-item.software.highlight {
+    border-color: #bb8fce;
+}
+.timeline-item.software .category {
+    background-color: #bb8fce;
+}
+.timeline-item.talk.highlight {
+    border-color: #f0b27a;
+}
+.timeline-item.talk .category {
+    background-color: #f0b27a;
+}
+.timeline-item.workshop.highlight {
+    border-color: #f1948a;
+}
+.timeline-item.workshop .category {
+    background-color: #f1948a;
+}
+.timeline-item.teaching.highlight {
+    border-color: #f7dc6f;
+}
+.timeline-item.teaching .category {
+    background-color: #f7dc6f;
+}
+
+.timeline-item.exhibition.highlight {
+    border-color: #6ff7dc;
+}
+.timeline-item.exhibition .category {
+    background-color: #6ff7dc;
+}
+
+  .highlight {
+    font-size: 200%;
+  }
+
+  /* Date styling */
+  .timeline-item .date {
+    font-size: 0.9em;
+    color: #999;
+    display: block;
+    position: absolute;
+    left: 0px;
+    width: 238px;
+    text-align: right;
+  }
+  
+  .organization {
+    opacity: 0.6;
+  }
+
+  .speech-bubble {
+	position: relative;
+	border-radius: .8em;
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 2.2em;
+}
+
+.section-title-container {
+    max-width: 900px;
+    display: flex;
+}
+
+.section-title-container .portrait {
+    min-width: 230px;
+    min-height: 230px;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.highlight .date {
+    width: 220px;
+}
+
+.highlight .category {
+    display: none;
+}
+
+.category {
+    color: black;
+    padding: 2px 5px;
+    margin-left: 10px;
+}
