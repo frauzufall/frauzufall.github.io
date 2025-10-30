@@ -6,6 +6,10 @@
   event: "[Konferenz für Experimentelle Endokrinologie](https://www.endokrinologie.net/veranstaltung/sektionstagung-experimentelle-endokrinologie.php), Hygienemuseum Dresden"
   end_date: "2024-10-14"
   
+- title: "(Invited) The impact of AI in scientific image processing"
+  event: "AI4EOSC webinar series: Image processing with AI4EOSC [YouTube](https://www.youtube.com/watch?v=JQOWmsEQANs)"
+  end_date: "2024-04-08"
+
 - title: "(Invited) Replicable image analysis across domains"
   event: "Helmholtz Open Science Forum - [Towards Open Digital Research Ecosystems – Interconnecting Infrastructures](https://os.helmholtz.de/veranstaltungen/foren/towards-open-digital-research-ecosystems/)"
   end_date: "2024-01-01"
