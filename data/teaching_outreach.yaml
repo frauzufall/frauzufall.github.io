@@ -1,6 +1,10 @@
 - title: "Workshop week: [3D Visualization](https://events.hifis.net/event/2781)"
   event: "Helmholtz Information & Data Science Academy"
   end_date: "2025-11-01"
+
+- title: "3D Visualization"
+  event: "Helmholtz Imaging Seminar Series - [Six Main Tasks in Image Processing](https://www.helmholtz-hida.de/en/lernen-vernetzen/data-science-course-portfolio/six-main-tasks-in-image-processing/)"
+  end_date: "2025-09-21"
   
 - title: "Workshop: Image Prevalidation"
   event: "[4. Helmholtz Reproducibility Workshop](https://www.mdc-berlin.de/news/events/4-helmholtz-reproducibility-workshop), MDC Berlin"
