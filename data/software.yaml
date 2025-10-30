@@ -1,7 +1,12 @@
+- title: "[Pixel Patrol](https://github.com/ida-mdc/pixel-patrol)"
+  description: "Scientific Image Dataset Pre-validation Tool"
+  start_date: "2025-01-01"
+  end_date: "2025-12-31"
+
 - title: "[Album](https://gitlab.com/album-app/album)"
   description: "A decentralized distribution platform for solutions to specific scientific problems."
   start_date: "2021-01-01"
-  end_date: "2023-12-31"
+  end_date: "2025-12-31"
 
 - title: "[DenoiSeg in Fiji](https://github.com/juglab/DenoiSeg_fiji)"
   description: "The neural network based plugin for joint segmentation and denoising in Java."
