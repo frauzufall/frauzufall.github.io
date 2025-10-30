@@ -1,3 +1,22 @@
+- title: "(Organization) 3D Visualization Workshop"
+  organization: "Helmholtz Information & Data Science Academy"
+  url: "https://events.hifis.net/event/2781"
+  end_date: "2025-11-01"
+
+- title: "(Invited participant) Cell Trackathon"
+  organization: "Janelia Research Campus"
+  end_date: "2025-06-01"
+  
+- title: "(Organization) Image Prevalidation Workshop"
+  organization: "4. Helmholtz Reproducibility Workshop, MDC Berlin"
+  url: "https://www.mdc-berlin.de/news/events/4-helmholtz-reproducibility-workshop"
+  end_date: "2025-03-01"
+
+- title: "(Organization) Visualization of volumetric datasets"
+  organization: "Helmholtz Summer School"
+  url: "https://events.hifis.net/event/1590/"
+  end_date: "2024-09-27"
+
 - title: "(Invited participant) Cell Trackathon"
   organization: "Janelia Research Campus"
   end_date: "2023-01-01"
