@@ -1,3 +1,19 @@
+- title: "Workshop week: [3D Visualization](https://events.hifis.net/event/2781)"
+  event: "Helmholtz Information & Data Science Academy"
+  end_date: "2025-11-01"
+  
+- title: "Workshop: Image Prevalidation"
+  event: "[4. Helmholtz Reproducibility Workshop](https://www.mdc-berlin.de/news/events/4-helmholtz-reproducibility-workshop), MDC Berlin"
+  end_date: "2025-03-01"
+
+- title: "Workshop: Visualization of volumetric datasets"
+  event: "[Helmholtz Summer School](https://events.hifis.net/event/1590/)"
+  end_date: "2024-09-27"
+
+- title: "Visualizing spatial datasets"
+  event: "Helmholtz Imaging Seminar Series - [Six Main Tasks in Image Processing](https://helmholtz-imaging.de/events/six-main-tasks-in-image-processing/)"
+  end_date: "2023-01-01"
+  
 - title: "Workshop: Sharing Scientific Software Solutions Across Tools and Domains with Helmholtz Imaging Solutions"
   end_date: "2022-09-12"
   event: "[Incubator Summer Academy - From Zero to Hero](https://events.hifis.net/event/398/timetable/)"
@@ -31,12 +47,3 @@
   organization: "Professorship Media Design, TU Dresden"
   start_date: "2012-01-01"
   end_date: "2013-12-31"
-
-- title: "3D Visualization workshop"
-  organization: "[Helmholtz Summer School](https://helmholtz-metadaten.de/de/veranstaltungen/helmholtz-summer-school-2024)"
-  end_date: "2024-01-01"
-  end_date: "2023-01-01"
-
-- title: "Visualizing spatial datasets"
-  event: "Helmholtz Imaging Seminar Series - [Six Main Tasks in Image Processing](https://helmholtz-imaging.de/events/six-main-tasks-in-image-processing/)"
-  end_date: "2023-01-01"
